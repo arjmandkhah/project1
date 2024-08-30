@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    font-family:IRANSansWeb ;
+}
+@font-face {
+    font-family:IRANSansWeb ;
+    src: url(./font/iranyekanwebregular.e31c09af.woff2);
+}
+@font-face {
+    font-family:mj ;
+    src: url(./font/Mj_Naskh-Fontjo.com/Mj_Naskh\ Titr.ttf);
+}
+:root{
+    --background-color:beige;
+    --background-color-1: #FFAD60;
+    --color2:#1E201E;
+    --color1: rgb(86, 35, 134);
+    --color3:#424769;
+}
+header>div.menu{
+    width: 100%;
+    height: 122px;
+    background-color:var(--background-color);
+   background-attachment: fixed;
+
+}
+header>div.menu>nav{
+    width: inherit;
+    height: inherit;
+}
+header>div.menu>nav>ul{
+    width: inherit;
+    height: inherit;
+    position: relative;
+}
+header>div.menu>nav>ul>li{
+    margin: 50px auto;
+    display: inline-block;
+    position: absolute;
+}
+header>div.menu>nav>ul>li>a{
+    text-decoration: none;
+    color:var(--color2);
+}
+header>div.menu>nav>ul>li>a>i{
+    padding: 10px;
+}
+header>div.menu>nav>ul>li:nth-of-type(1){
+    font-size: 22px;
+    padding: 10px;
+}
+header>div.menu>nav>ul>li:nth-of-type(1)>a{
+    font-family:mj ;
+    color:var(--color1);
+}
+header>div.menu>nav>ul>li:nth-of-type(2),
+header>div.menu>nav>ul>li:nth-of-type(3),
+header>div.menu>nav>ul>li:nth-of-type(4),
+header>div.menu>nav>ul>li:nth-of-type(5){
+    font-size: 15px;
+    text-align: center;
+}
+header>div.menu>nav>ul>li:nth-of-type(2){
+    left: 800px;
+}
+header>div.menu>nav>ul>li:nth-of-type(3){
+    left: 650px;
+}
+header>div.menu>nav>ul>li:nth-of-type(4){
+    left: 550px;
+}
+header>div.menu>nav>ul>li:nth-of-type(5){
+    left: 400px;
+}
+header>div.menu>nav>ul>li:nth-of-type(6){
+    left: 10px; 
+    transition: 2s;
+}
+header>div.menu>nav>ul>li:nth-of-type(6)>img{
+  display: none;
+ }
+header>div.menu>nav>ul>li:nth-of-type(6):hover>img{
+    display: inline;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+ }
+header>div.menu>nav>ul>li:nth-of-type(6):hover{
+    padding: 10px;
+  background-color: var(--background-color-1); 
+  border-radius: 5px;  
+}
+header>div.menu>nav>ul>li:nth-of-type(2):active,
+header>div.menu>nav>ul>li:nth-of-type(3):active,
+header>div.menu>nav>ul>li:nth-of-type(4):active,
+header>div.menu>nav>ul>li:nth-of-type(5):active{
+    font-size: 20px;
+    color: var(--color3);
+}

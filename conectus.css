@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+    font-family: IRANSansWeb;
+}
+
+@font-face {
+    font-family: IRANSansWeb;
+    src: url(./font/iranyekanwebregular.e31c09af.woff2);
+}
+@font-face {
+    font-family: mj;
+    src: url(./font/Mj_Naskh-Fontjo.com/Mj_Naskh\ Titr.ttf);
+}
+:root{
+    --background-color:#C0C78C ;
+    --background-color-1:#F0EAAC;
+    --color:#55679C ;
+    --color-1: #1E201E;
+    --color-2:#3D3B40 ;
+    --color-3:#AC87C5 ;
+    --color-4:#DC84F3 ;
+    --color-5:#F3CCF3 ;
+    --color-6:#E9A8F2 ;
+
+}
+div.content{
+height: 60vh;
+background-color: var(--background-color);
+position: relative;
+text-align: center;
+}
+div.content>div.contectus{
+    width: 100%;
+    padding: 50px;
+    position: absolute;
+    vertical-align: middle;
+}
+div.content>div.contectus>div.text{
+    width: 20%;
+    margin: 40px auto;
+    text-align: justify;
+    display: inline-block;
+    padding: 20px;
+    right: 0%;
+}
+div.content>div.contectus>div.text>h3{
+    font-family: arshia;
+    color: var(--color);
+    font-size: 30px;
+    margin: 20px 20px;
+    word-spacing: 6px;
+   
+}
+div.content>div.contectus>div.phone{
+    width: 20%;
+    display: inline-block;
+    margin: 50px 50px;
+}
+div.content>div.contectus>div.phone>h5{
+    font-family: arshia;
+    color: var(--color);
+    font-size: 30px;
+    margin-bottom: 30px;
+    
+}
+div.content>div.contectus>div.address{
+    width: 20%;
+    display: inline-block;
+    margin: 50px 50px;
+}
+div.content>div.contectus>div.address>h5{
+    font-family: arshia;
+    color: var(--color);
+    font-size: 30px;
+    margin-bottom: 30px;
+    
+}
+div.content>div.contectus>div.classes{
+    width: 20%;
+    display: inline-block;
+    padding: 5px;
+}
+div.content>div.contectus>div.classes>h5{
+    font-family: arshia;
+    color: var(--color);
+    font-size: 30px;
+}
+div.content>div.contectus>div.classes>ul{
+    background-color: var(--background-color); 
+}
+div.content>div.contectus>div.classes>ul>li{
+    padding: 5px;
+}
+div.content>div.contectus>div.classes>ul>li>a{
+    text-decoration: none;
+    color: var(--color-1);
+    padding: 2px;
+    margin: 20px 2px;
+}

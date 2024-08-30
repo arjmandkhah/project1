@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+    font-family: IRANSansWeb;
+}
+
+@font-face {
+    font-family: IRANSansWeb;
+    src: url(./font/iranyekanwebregular.e31c09af.woff2);
+}
+@font-face {
+    font-family: mj;
+    src: url(./font/Mj_Naskh-Fontjo.com/Mj_Naskh\ Titr.ttf);
+}
+:root{
+    --background-color:#C0C78C ;
+    --background-color-1:#F0EAAC;
+    --color:#55679C ;
+    --color-1: #1E201E;
+    --color-2:#3D3B40 ;
+    --color-3:#AC87C5 ;
+    --color-4:#DC84F3 ;
+    --color-5:#F3CCF3 ;
+    --color-6:#E9A8F2 ;
+
+}
+div.content{
+    height: 150vh;
+background-color: var(--background-color);
+}
+div.content>div.about{
+    margin: 0px auto;
+    width: 100%;
+  }
+  div.content>div.about>div.about-1{
+    height: 500px;
+    padding: 20px;
+    /* line-height: 15px; */
+    background-color: rgba(22, 220, 22,0.2);
+    background-image: url(./img/gray-world-map_23-2147510747.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: o.5;
+  }
+  div.content>div.about>div.about-1>details:hover{
+    font-size: 20px;
+    opacity: 1;
+    color: var(--color-2);
+  }
+  div.content>div.about>div.about-1>h4{
+    opacity: 1;
+    word-spacing: 2px;
+    color: var(--color);
+    font-family: mj;
+    font-size: 20px;
+  } 
+  div.content>div.about>div.about-2{
+    height: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    line-height: 30px;
+    text-align: justify;
+    border: 2px solid gray;
+    border-radius: 5px;
+   
+    vertical-align: middle;
+
+  }
+  div.content>div.about>div.about-2>h4{
+    word-spacing: 2px;
+    color: var(--color);
+    font-size: 18px;
+  }

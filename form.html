@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="./icon/FontAwesome.Pro.6.5.2/css/all.css">
+    <link rel="stylesheet" href="./assets/form.css">
+</head>
+<body>
+    <div class="form">
+        <h3>فرم ثبت نام</h3>
+    
+        <form action="post">
+            <label for="firs-name">نام:</label>
+            <input type="text" placeholder="نام" name="firs-name" id="firs-name">
+            <label for="last-name">نام خانوادگی:</label>
+            <input type="text" placeholder="نام خانواندگی" name="last-name" id="last-name">
+            <label for="email">نام کاربری:</label>
+            <input type="email"  placeholder="ایمیل" name="email" id="email" required >
+            <label for="password">رمز عبور:</label>
+            <input type="password" placeholder="رمز عبور" name="password" id="password" required >
+            <label for="tel">شماره همراه:</label>
+            <input type="tel" placeholder="تلفن همراه" name="tel" id="tel" required>
+            <section>جنسیت:</section>
+            <label for="female">خانم  <i class="fa-solid fa-user-tie-hair-long"></i></label>
+            <input type="radio" name="gender" id="female">
+            <label for="male">اقا  <i class="fa-duotone fa-solid fa-user-tie"></i></label>
+            <input type="radio" name="gender" id="male">
+            <input type="submit" value="تائید" readonly required>
+            
+        </form>
+        <div class="icon">
+            <i class="fa-duotone fa-solid fa-star-shooting"></i>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+    font-family: IRANSansWeb;
+}
+
+@font-face {
+    font-family: IRANSansWeb;
+    src: url(./font/iranyekanwebregular.e31c09af.woff2);
+}
+@font-face {
+    font-family: mj;
+    src: url(./font/Mj_Naskh-Fontjo.com/Mj_Naskh\ Titr.ttf);
+}
+:root{
+    --background-color:#C0C78C ;
+    --background-color-1:#F0EAAC;
+    --color:#55679C ;
+    --color-1: #1E201E;
+    --color-2:#3D3B40 ;
+    --color-3:#AC87C5 ;
+    --color-4:#DC84F3 ;
+    --color-5:#F3CCF3 ;
+    --color-6:#E9A8F2 ;
+
+}
+@keyframes animate{
+    0%{
+        top: 0px;
+        left: 150px;
+    }
+    5%{
+        top: 100px;
+        left: 180px; 
+    }
+    10%{
+        top: 150px;
+        right: 220px;
+    }
+    20%{
+        top: 350px;
+        left: 300px;  
+    }
+    40%{
+        top: 450px;
+        left: 400px;  
+    }
+    50%{
+        top: 550px;
+        left: 500px;
+    }
+    60%{
+    top: 600px;
+    left: 460px; 
+    }
+    80%{
+        top: calc(500%2*4);
+        left:calc(20%50) ;
+    }
+    100%{
+        bottom: 500px;
+        right: 800px;
+    }
+}
+div.content{
+    height: 100vh;
+background-color: var(--background-color);
+}
+div.content>div.gif{
+    position: absolute;
+    animation-name: animate;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 6s;
+}
+div.content>div.gif>img{
+    width: 80px ;
+    height: 80px;
+    border-radius: 40%;
+}
+div.content>div.content-home{
+    position: relative;
+    padding: 80px ;
+}
+div.content>div.content-home>div.images{
+    position: absolute;
+    vertical-align: middle; 
+    display: inline-block;
+    left: 20px;
+}
+div.content>div.content-home>div.images>img{  
+    width:550px;
+    height: 350px; 
+}
+div.content>div.content-home>div.images>div.icon{
+    position: absolute;
+    font-size: 40px;
+}
+div.content>div.content-home>div.images>.icon>i{
+  
+}
+div.content>div.content-home>div.images>.icon>i:nth-of-type(1){
+    color: var(--color-3);
+    position: absolute;
+    bottom: 300px;
+    right: 500px;
+   
+}
+div.content>div.content-home>div.images>.icon>i:nth-of-type(2){
+    font-size: 50px;
+    color: var(--color-4);
+    position: absolute;
+    bottom: 250px;
+    left: 20px;
+   
+   
+}
+div.content>div.content-home>div.images>.icon>i:nth-of-type(3){
+    color: var(--color-5);
+    position: absolute;
+    bottom: 300px;
+    right: 20px;
+    left: 0px;
+    
+}
+div.content>div.content-home>div.images>.icon>i:nth-of-type(4){
+    font-size: 30px;
+    color: var(--color-6);
+    position: absolute;
+    bottom: 0px;
+    right: 400px;
+}
+div.content>div.content-home>div.text{
+    display: inline-block; 
+    vertical-align: middle;  
+}
+div.content>div.content-home>div.text>h2{
+    text-transform: capitalize;
+    color: var(--color);
+    padding: 20px;
+}
+div.content>div.content-home>div.text>h4{
+    padding: 10px;
+}
+div.content>div.content-home>div.text>p{
+    width: 500px;
+    text-align: justify;
+}

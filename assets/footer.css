@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    font-family:IRANSansWeb ;
+}
+@font-face {
+    font-family:IRANSansWeb ;
+    src: url(./font/iranyekanwebregular.e31c09af.woff2);
+}
+@font-face {
+    font-family:mj ;
+    src: url(./font/Mj_Naskh-Fontjo.com/Mj_Naskh\ Titr.ttf);
+}
+@font-face {
+    font-family: arshia;
+    src: url(./font/Far.Arshia-Fontjo.com/Far.Arshia.ttf);
+}
+:root{
+    --background-color: #A6B37D;
+    --color:#387F39;
+}
+div.footer{
+    width: 100%;
+    height: 50vh;
+    background-color: var(--background-color);
+    position: relative;
+    text-align: center;
+}
+div.footer>footer{
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    vertical-align: middle;
+    
+}
+
+div.footer>footer>div.icon{
+    margin: 0px auto;
+ 
+}
+div.footer>footer>div.icon>i{
+    padding: 30px;
+    font-size: 40px;
+}
